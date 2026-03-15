@@ -1,5 +1,5 @@
 context:
-  version: "2.18.0"
+  version: "2.19.0"
 
 package:
   name: ntfy
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/binwiederhier/ntfy/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 651b7837b564929e843f4e6af2758eb20768335aac0a2f58481a6bce0e4787b3
+  sha256: 1a80d255cfd1809c34d293ab0869b37b422da33aef2dbbaf201d5fc813e1d2ad
   target_directory: src
 
 build:
